@@ -14,7 +14,7 @@ This is a spring boot project that allows users to give in a number as input and
 
 ### Method 2: Docker
 * Clone the project
-* Install docker in your machine
+* Install docker in your machine from this link - [Docker](https://www.docker.com/)
 * In your pom.xml file, make changes to the java version according to java installed in your machine. Also in the Dockerfile, change it from openjdk:22 to your java version. Changing the port can also be done. I've selected 8080.
 * Rest can be left as is.
 * In the folder containing Dockerfile, open terminal and type the command `docker build -t your-app-name .`.
