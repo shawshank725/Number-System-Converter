@@ -18,7 +18,7 @@ This is a spring boot project that allows users to give in a number as input and
 * In your pom.xml file, make changes to the java version according to java installed in your machine. Also in the Dockerfile, change it from openjdk:22 to your java version. Changing the port can also be done. I've selected 8080.
 * Rest can be left as is.
 * In the folder containing Dockerfile, open terminal and type the command `docker build -t your-app-name .`.
-* Once the image is successfully created, youcan check existing images in docker by the command `docker images`.
+* Once the image is successfully created, you can check existing images in docker by the command `docker images`.
 * If you see the image with your app name, then write the following command `docker run -p 8080:8080 your-app-name`. Replace 8080:8080 with the port number you entered in the Dockerfile.
 * The app should start running and you can access it on `http://localhost:portnumber/`.
   
